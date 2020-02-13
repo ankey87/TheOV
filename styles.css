@@ -14,8 +14,13 @@ h1,h2,h4{
     
 }
 
-h3{
+h2.description{
+    font-style: italic;
+}
+
+h3.header{
     text-decoration: underline;
+    font-size:bold;
 }
 
 section{
@@ -28,3 +33,22 @@ section{
   
 
 }
+p.response{
+    font-style: italic;
+
+}
+
+li.point{
+    font-style: italic;
+}
+
+.button {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+    
+
+
+}
+   
