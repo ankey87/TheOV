@@ -11,7 +11,7 @@ h1,h2,h4{
     text-align: center;
     color : rgba(255, 255, 255, 0.952);
     background-image: url("img/TheOmniVerse.png");
-   font-family: fantasy;
+    font-family: fantasy;
 }
 
 h2.description{
@@ -57,10 +57,44 @@ li.point{
     color: white;
     text-align: center;
     text-decoration: none;
-
-    
-    
-
-
 }
-   
+/* OmniBlog */
+.blog-container {
+    flex-direction: column;
+}
+.blog-images {
+    justify-content: space-between;
+}
+.blog-body {
+    background-color: #49636B;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-indent: 10px;
+}
+.blog-graphic {
+    position: relative;
+    width: 60%;
+    margin-top: 10px;
+    left: 80px;
+}
+.f4 {
+    margin-top: 10px;
+    position: relative;
+    margin-left: 20px;
+}
+.hulk {
+    position: relative;
+    width: 50%;
+    left: 10px;
+    top: 10px;
+}
+.back:hover {
+    background-color: plum;
+    cursor: pointer;
+}
+@media (min-width: 579px) {
+    .f4 {
+
+    }
+}
