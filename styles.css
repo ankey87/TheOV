@@ -60,34 +60,23 @@ li.point{
 }
 /* OmniBlog */
 .blog-container {
+    display: flex;
     flex-direction: column;
+    object-fit: cover;
+    align-items: center;
 }
-.blog-images {
-    justify-content: space-between;
-}
+ .blog-images, .superman, .hulk {
+    margin-top: 10px;
+    max-width: 100%;
+ }
 .blog-body {
     background-color: #49636B;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+}
+.blog-body > p {
     text-indent: 10px;
-}
-.blog-graphic {
-    position: relative;
-    width: 60%;
-    margin-top: 10px;
-    left: 80px;
-}
-.f4 {
-    margin-top: 10px;
-    position: relative;
-    margin-left: 20px;
-}
-.hulk {
-    position: relative;
-    width: 50%;
-    left: 10px;
-    top: 10px;
 }
 .back:hover {
     background-color: plum;
@@ -95,6 +84,7 @@ li.point{
 }
 @media (min-width: 579px) {
     .f4 {
-
+        display: flex;
+        flex-direction: row;
     }
 }
