@@ -59,6 +59,30 @@ li.point{
     text-decoration: none;
 }
 /* OmniBlog */
+.header-container {
+    background-image: url("img/TheOmniVerse.png");
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 10px;
+    text-align: left;
+    text-decoration: none;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    width: 15px;
+    background: #55ACEE;
+    color: white;
+  }
+.fa-instagram {
+    background: hotpink;
+    color: white;
+    width: 15px;
+}
 .blog-container {
     display: flex;
     flex-direction: column;
@@ -81,10 +105,4 @@ li.point{
 .back:hover {
     background-color: plum;
     cursor: pointer;
-}
-@media (min-width: 579px) {
-    .f4 {
-        display: flex;
-        flex-direction: row;
-    }
 }
